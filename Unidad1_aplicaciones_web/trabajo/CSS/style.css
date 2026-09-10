@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    background-color: aliceblue;
+}
+
+p {
+    font-size: 1.1rem;
+    color: black;
+    line-height: 2rem;
+    margin-bottom: 0px;
+}
+
+h1 {
+    font-size: 6rem;
+    color: aqua;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftdiv {
+    width: 30%;
+    background-color: #9ddbf6;
+    border-radius:20px;
+    border: 5px;
+    padding: 20px;
+}
+
+.rightdiv {
+    width: 50%;
+    background-color: #9ddbf6;
+
+}
+
+.divflex{
+    width: 45%;
+}
+
+.divflex2{
+    width: 45%;
+}
+
+.imfclass{
+    width: 20%;
+}

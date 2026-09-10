@@ -1,0 +1,27 @@
+body {
+    margin: 0px;
+}
+
+h1 {
+    font-size: 7rem;
+}
+
+p {
+    color: #fff;
+    margin-bottom: 3rem;
+    font-size: 2rem;
+    line-height: 2rem;
+}
+
+a {
+    font-size: 5rem;
+    color: #6d6d6d;
+    text-decoration: dotted;
+    transition: all ease-in 1s;
+}
+
+a:hover {
+    text-decoration: none;
+    cursor: pointer;
+    color: #cdeb07;
+}
