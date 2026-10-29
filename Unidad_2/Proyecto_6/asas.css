@@ -1,0 +1,74 @@
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    background: #fff;
+    margin: 20px;
+  }
+  .page {
+    width: 100%;
+    max-width: 450px;
+  }
+  header {
+    border: 2px solid #22b14c;
+    border-radius: 12px;
+    padding: 6px 14px;
+    margin-bottom: 8px;
+    font-family: Georgia, serif;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  main {
+    border: 2px solid #22b14c;
+    border-radius: 20px;
+    padding: 20px 18px;
+  }
+  main h1 {
+    font-size: 36px;
+    line-height: 1.1;
+    margin: 0;
+    font-weight: 900;
+  }
+  .badge-new {
+    background: #1a2235;
+    color: white;
+    padding: 4px 14px;
+    border-radius: 8px;
+    display: inline-block;
+  }
+  .intro {
+    font-size: 13px;
+    margin-top: 18px;
+  }
+  ul {
+    margin: 8px 0;
+    padding-left: 20px;
+    font-size: 13px;
+  }
+  h2 {
+    font-size: 18px;
+    margin: 12px 0 8px 0;
+  }
+  .form-row {
+    font-size: 12px;
+    margin-bottom: 8px;
+  }
+  select, input[type="text"], input[type="email"] {
+    border: 1px solid #999;
+    border-radius: 2px;
+    padding: 1px 3px;
+  }
+  input[type="submit"] {
+    font-size: 11px;
+    border: 1px solid #999;
+    border-radius: 2px;
+    background: #f0f0f0;
+    cursor: pointer;
+  }
+  footer {
+    border: 2px solid #22b14c;
+    border-radius: 12px;
+    padding: 5px 14px;
+    margin-top: 8px;
+    font-size: 12px;
+  }

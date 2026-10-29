@@ -1,0 +1,75 @@
+body {
+    background: linear-gradient(to bottom, rgb(58, 127, 58), rgb(174, 227, 165));
+}
+
+
+header {
+    background:linear-gradient(to bottom,rgb(41, 88, 41),rgb(58, 127, 58));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.padre {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.padre2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.hijo {
+    width: 40%;
+    background-color: rgb(223, 184, 184);
+    padding: 2rem;
+    border: 5px solid #b42525;
+    border-radius: 5%;
+    margin-bottom: 2rem;
+}
+
+.hijo2 {
+
+    width: 40%;
+    background-color: rgb(223, 184, 184);
+    padding: 2rem;
+    border: 5px solid #b42525;
+    border-radius: 5%;
+    margin-bottom: 2rem;
+}
+
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(to right, #067854, rgb(237, 235, 235), #CE1126);
+    background-clip: text;
+    color: transparent;
+}
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.hijo:hover {
+    background-color: rgb(250, 244, 244);
+    border-color: #e45050;
+    transition: 2.0s;
+    color: rgb(90, 86, 86);
+}
+.hijo2:hover {
+    background-color: rgb(250, 244, 244);
+    border-color: #e45050;
+    transition: 2.0s;
+}
+
+.b{
+    height: 45px;
+}

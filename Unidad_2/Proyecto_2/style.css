@@ -1,0 +1,42 @@
+:root{
+    --bg-color: #f4f6f9;
+    --card-bg: #ffff;
+    --text-color: #1e293b;
+    --acent-color: #cbd5e1;
+    --border-color: #cbd5e1;
+}
+
+/*Declaro variables caundo pongan el modo oscuro*/
+body.modo_oscuro{
+    --bg-color: #0f172a;
+    --card-bg: #1e293b;
+    --text-color: #f8fafc;
+    --acent-color: #38bdf8;
+    --border-color: #334155;
+}
+
+body{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 2rem;
+    /*Trancision suave al cambiar el color*/
+    transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+#btn_cambio{
+    background-color: var(--acent-color);
+    color: #ffffff;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    font-size: 1.95rem;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+#btn_cambio:hover{
+    transform: scale(1.05);
+}

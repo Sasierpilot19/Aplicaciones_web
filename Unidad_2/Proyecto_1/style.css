@@ -1,0 +1,89 @@
+.padre {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.hijo {
+    width: 40%;
+    background-color: brown;
+    padding: 2rem;
+    border: 2px solid #32e232;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 0px;
+    margin-bottom: 2rem;
+}
+
+header img {
+    height: 100px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tagmenu {
+    color: rgb(4, 56, 97);
+    font-size: 1.5rem;
+}
+
+.tagmenu:hover {
+    color: blueviolet;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.hijo img{
+    height: 9rem;
+}
+.hijo h2:first-child{
+    color: #7bd87b;
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.hijo h2:nth-child(2){
+    color: coral;
+    font-size: 3rem;
+    font-weight: lighter;
+}
+.hijo:hover{
+    background-color: #c9b43c;
+    border-color: crimson;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 3ch;
+}
+.hijo:hover p{
+    background-color: blueviolet;
+    cursor: help;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.btnmagia:hover .divcambio{
+    background-color: aquamarine;
+}
+
+.btnmagia:hover p{
+    color: cadetblue;
+}
+
+.btnmagia:hover .divcambio a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: deeppink;
+    cursor: help;
+}
+
+
+@media (max-width 1024px){
+    .div1{
+        width: 100%;
+    }
+
+} 

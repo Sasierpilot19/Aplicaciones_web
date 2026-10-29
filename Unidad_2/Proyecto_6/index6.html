@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>STEP</title>
+    <link rel="stylesheet" href="style6.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="#inicio" class="logo">STEP</a>
+
+        <ul class="menu">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#productos">Productos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="inicio" class="portada">
+      <div class="portada-contenido">
+        <h1>DA EL SIGUIENTE PASO</h1>
+
+
+        <a href="#productos" class="boton"> Explorar productos </a>
+      </div>
+
+      <div class="portada-imagen">
+        <img src="IMG/teni_rojo.avif" alt="Tenis deportivo rojo" />
+      </div>
+    </section>
+
+    <section id="nosotros" class="nosotros">
+      <h2>Acerca de nosotros</h2>
+
+      <p>
+        En STEP creemos que cada paso cuenta.
+      </p>
+    </section>
+
+    <section id="productos" class="productos">
+      <h2>Nuestros productos</h2>
+
+      <p>Encuentra tu estilo</p>
+
+      <div class="productos-contenedor">
+        <div class="producto">
+          <img src="IMG/teni_rojo.avif" alt="Tenis deportivos rojos" />
+
+          <h3>Tenis Urban</h3>
+
+          <p>$1,299.00 MXN</p>
+
+          <a href="#contacto" class="boton"> Me interesa </a>
+        </div>
+
+        <div class="producto">
+          <img src="IMG/teni_rojo.avif" alt="Tenis para uso diario" />
+
+          <h3>Tenis Street</h3>
+
+          <p>$1,499.00 MXN</p>
+
+          <a href="#contacto" class="boton"> Me interesa </a>
+        </div>
+
+        <div class="producto">
+          <img src="IMG/teni_rojo.avif" alt="Tenis deportivos modernos" />
+
+          <h3>Tenis sport</h3>
+
+          <p>$1,799.00 MXN</p>
+
+          <a href="#contacto" class="boton"> Me interesa </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="contacto">
+      <h2>Contactanos</h2>
+      <div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13980.870218215043!2d-99.3418925!3d20.0059892!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d22d134f5ed9d9%3A0xaf1e77aba8c3a0a2!2sUniversidad%20Tecnol%C3%B3gica%20de%20Tula-Tepeji!5e1!3m2!1ses-419!2smx!4v1791931627691!5m2!1ses-419!2smx"
+          loading="lazy"
+          referrerpolicy="strict-origin-when-cross-origin"
+        ></iframe>
+      </div>
+      <p>Que producto te interesa</p>
+
+      <form id="formulario-contacto">
+        <div class="campo">
+          <label for="nombre">Nombre completo</label>
+
+          <input
+            type="text"
+            id="nombre"
+            name="nombre"
+            placeholder="Escribe tu nombre"
+          />
+        </div>
+
+        <div class="campo">
+          <label for="email">Correo electronico</label>
+          <input type="email" id="email" name="email" placeholder="Correo electronico" />
+        </div>
+
+        <div class="campo">
+          <label for="telefono">Numero telefonico</label>
+
+          <input
+            type="tel"
+            id="telefono"
+            name="telefono"
+            title="Ingresa un numero de 10 digitos"
+            placeholder="Numero telefonico 10 digitos"
+          />
+        </div>
+
+        <div class="campo">
+          <label for="comentario">En que producto estas interesado</label>
+
+          <textarea
+            id="comentario"
+            name="comentario"
+            placeholder="Cuentanos que tenis buscas o que necesitas"
+          ></textarea>
+        </div>
+
+        <button type="submit" class="boton">Enviar formulario</button>
+      </form>
+    </section>
+    <script src="function6.js"></script>
+  </body>
+</html>

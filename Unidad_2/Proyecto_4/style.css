@@ -1,0 +1,96 @@
+body{
+    background-color: #0f172a;
+}
+:root {
+    --rojo: red;
+    --azul: blue;
+    --verde: green;
+    --amarillo: yellow;
+    --naranja: orange;
+    --morado: purple;
+    --rosa: pink;
+    --cafe: brown;
+    --bordeR: #FF073A;
+    --txtcolor: rgb(25, 25, 30);
+}
+
+header {
+    padding: 1rem;
+    text-align: center;
+}
+h1{
+    font-size: 3rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #f8fafc;
+}
+.AROP_padre {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.AROP_hijo {
+    height: 10rem;
+    width: 10%;
+    border-radius: 15px;
+    padding: 2.5rem;
+    margin: 2rem;
+    transition: transform 0.5s ease-in-out;
+    display: flex;
+    justify-content: center;
+    border: 3px bold;
+}
+
+.rojo {
+    background-color: var(--rojo);
+    border-color: var(--bordeR);
+}
+
+.azul {
+    background-color: var(--azul);
+}
+
+.verde {
+    background-color: var(--verde);
+}
+
+.amarillo {
+    background-color: var(--amarillo);
+}
+
+.naranja {
+    background-color: var(--naranja);
+}
+
+.morado {
+    background-color: var(--morado);
+}
+
+.rosa {
+    background-color: var(--rosa);
+}
+
+.cafe {
+    background-color: var(--cafe);
+}
+
+.btn {
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #c9c5c5;
+    color: var(--txtcolor);
+    border-radius: 10px;
+    border: 1px solid var(--txtcolor);
+    transition: background-color 0.5s ease-in-out;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: var(--bgcolor);
+    color: var(--txtcolor);
+    border-radius: 10px;
+    border: 1px solid var(--txtcolor);
+
+}
