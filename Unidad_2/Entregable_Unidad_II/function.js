@@ -1,4 +1,4 @@
-const formulario = document.getElementById("formulario-contacto");
+/*const formulario = document.getElementById("formulario-contacto");
 const nombre = document.getElementById("nombre");
 const email = document.getElementById("email");
 const telefono = document.getElementById("telefono");
@@ -43,4 +43,4 @@ event.preventDefault(); //Evita que el formulario se envie automaticamente
         form.reset();//Limpia el formulario
     }
 
-});
+});*/
