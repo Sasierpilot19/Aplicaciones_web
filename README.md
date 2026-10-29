@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## APLICACIONES WEB 🌐
 
 ### Internet y la web no son lo mismo
@@ -93,3 +94,7 @@ El archivo historico integral de todas las operaciones, obras y usuarios.
 ## De espectador a Creador: EL TALLER  🧰
 
 Ya conocemos como funciona la ciudad. Ahora, vamos a instalar el software base necesario para comenzar a construirla.
+=======
+# Aplicaciones_web
+Repositorio para trabajos de aplicaciones web
+>>>>>>> f869519c84c02814a08e1cc2364e710b7882399c
