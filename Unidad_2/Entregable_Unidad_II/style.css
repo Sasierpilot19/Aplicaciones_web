@@ -173,12 +173,12 @@ p {
   margin-bottom: 28px;
   max-width: 540px;
 }
-
-.portada-imagen {
+/*Para la imagen de portada del inicio*/
+.portadainicio-imagen {
   flex: 1;
 }
 
-.portada-imagen img {
+.portadainicio-imagen img {
   display: block;
   width: 100%;
   max-height: 420px;
@@ -316,7 +316,7 @@ p {
   margin-bottom: 28px;
   font-size: 1.08rem;
 }
-
+/*Para la imagen de portada de hombre y mujer*/
 .portada-imagen {
   position: absolute;
   inset: 0 0 0 auto;
@@ -327,7 +327,7 @@ p {
   background: var(--superficie-secundaria);
 }
 
-.genero-imagen img {
+.portada-imagen img {
   width: 100%;
   height: 100%;
   display: block;
@@ -373,7 +373,7 @@ p {
   background: var(--superficie-secundaria);
 }
 
-/* Contacto */
+/* Apartado de Contacto */
 .contacto-pagina {
   min-height: calc(100vh - 80px);
   background: var(--fondo);
@@ -463,16 +463,16 @@ form .boton {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .hero-genero {
+  .genero {
     padding: 0 5%;
     min-height: 470px;
   }
 
-  .hero-genero-texto {
+  .genero-texto {
     width: 57%;
   }
 
-  .hero-genero-imagen {
+  .genero-imagen {
     width: 55%;
   }
 }
@@ -517,11 +517,11 @@ form .boton {
     font-size: 1rem;
   }
 
-  .portada-imagen {
+  .portadainicio-imagen {
     width: 100%;
   }
 
-  .portada-imagen img {
+  .portadainicio-imagen img {
     max-height: 320px;
   }
 
@@ -534,23 +534,23 @@ form .boton {
     height: 250px;
   }
 
-  .hero-genero {
+  .genero {
     min-height: 650px;
     align-items: flex-start;
     padding: 0 5%;
   }
 
-  .hero-genero-texto {
+  .genero-texto {
     width: 100%;
     padding: 45px 0 300px;
   }
 
-  .hero-genero-texto h1 {
+  .genero-texto h1 {
     font-size: clamp(2rem, 9vw, 3.3rem);
     max-width: 100%;
   }
 
-  .hero-genero-imagen {
+  .genero-imagen {
     top: auto;
     bottom: 0;
     width: 100%;
